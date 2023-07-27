@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/cloud_night.png">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./weather_style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false"></input>
+            <button><img src="./assets/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <div class="message" id="error"></div>
+            <img src="./assets/clouds.png" class="weather-icon">
+            <div class="weather-description">Haze</div>
+            <h1 class="temp">26°C</h1>
+            <h2 class="city">Kathmandu</h2>
+
+            <div class="details">
+                <div class="col">
+                    <div class="inner_details">
+                        <img src="./assets/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="inner_details">
+                        <img src="./assets/feelsLike.png" alt="">
+                        <div>
+                            <p class="feelsLike">24°C</p>
+                            <p>Feels Like</p>
+                        </div>
+                    </div>
+
+                    <div class="inner_details">
+                        <img src="./assets/temp_min.png" alt="">
+                        <div>
+                            <p class="temp_min">24°C</p>
+                            <p>Min Temp.</p>
+                        </div>
+                    </div>
+
+                    <div class="inner_details">
+                        <img src="./assets/sunrise.png" alt="">
+                        <div>
+                            <p class="sunrise_time">6:00 AM</p>
+                            <p>Sunrise(NPT)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="inner_details">
+                        <img src="./assets/blow.png" alt="">
+                        <div>
+                            <p class="wind">20km/hr</p>
+                            <p>Wind</p>
+                        </div>
+                    </div>
+
+                    <div class="inner_details">
+                        <img src="./assets/visibility.png" alt="">
+                        <div>
+                            <p class="visibility">5 Km</p>
+                            <p>Visibility</p>
+                        </div>
+                    </div>
+
+                    <div class="inner_details">
+                        <img src="./assets/temp_max.png" alt="">
+                        <div>
+                            <p class="temp_max">24°C</p>
+                            <p>Max Temp.</p>
+                        </div>
+                    </div>
+
+                    <div class="inner_details">
+                        <img src="./assets/sunset.png" alt="">
+                        <div>
+                            <p class="sunset_time">6:30 PM</p>
+                            <p>Sunset(NPT)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./weather_script.js"></script>
+        <script src="https://kit.fontawesome.com/9a5524bf25.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
